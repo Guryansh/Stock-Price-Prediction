@@ -3,8 +3,7 @@
 ## Overview
 
 This project utilizes a Long Short-Term Memory (LSTM) neural network to predict the closing stock prices of a company
-based on the previous 60 days of stock price data. LSTM, a type of artificial recurrent neural network architecture, is
-particularly effective for time series forecasting due to its ability to retain information over long periods.
+based on the previous 60 days of stock price data.
 
 ## Authors
 
@@ -12,18 +11,11 @@ particularly effective for time series forecasting due to its ability to retain 
 
 ## Table of Contents
 
-1. [Introduction](#introduction)
-2. [Installation](#installation)
-3. [Dataset](#dataset)
-4. [Model Architecture](#model-architecture)
-5. [Usage](#usage)
-6. [Results](#results)
-
-## Introduction
-
-Stock market prediction is one of the most sought-after applications of machine learning due to its potential for
-financial gain. This project leverages the power of LSTM networks to predict the closing price of stocks using
-historical data. LSTM's ability to learn from sequential data makes it an ideal choice for this task.
+1. [Installation](#installation)
+2. [Dataset](#dataset)
+3. [Model Architecture](#model-architecture)
+4. [Usage](#usage)
+5. [Results](#results)
 
 ## Installation
 
@@ -43,8 +35,7 @@ The required libraries include:
 ## Dataset
 
 The dataset used in this project consists of historical stock prices, including the Open, High, Low, Close prices, and
-Volume of Apple Stock. The model is trained using the closing prices for the past 60 days to predict the next day's
-closing price.
+Volume of Apple Stock via Yahoo API.
 
 ## Model Architecture
 
